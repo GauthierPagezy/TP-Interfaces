@@ -6,12 +6,12 @@ public class Main {
     h1.meurt();
     */
 
-    /*Test passé
+    //Test passé
     Etudiant e1 = new Etudiant("Michel", 42.20);
     System.out.println(e1.getNom());
     e1.meurt();
     System.out.println(e1.getNote());
-    */
+
 
 
 

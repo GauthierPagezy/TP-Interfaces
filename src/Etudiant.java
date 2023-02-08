@@ -7,13 +7,8 @@ public class Etudiant extends Humain {
         this.note = note;
     }
 
-    public double getNote() {
-        return this.note;
-    }
-
-    public void setNote(double note) {
-        this.note = note;
-    }
+    public double getNote() {return this.note;}
+    public void setNote(double note) {this.note = note;}
 
 
 }

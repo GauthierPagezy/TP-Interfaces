@@ -1,9 +1,11 @@
-class Humain implements Mortel {
+abstract class Humain implements Mortel {
 
-    private String nom;
+    protected String nom;
 
     public Humain(String nom){this.nom = nom;}
-    public void setNom(String nom){this.nom = nom;}
+
+    public void setNom(String nom){}
+
     public String getNom(){return this.nom;}
 
     @Override

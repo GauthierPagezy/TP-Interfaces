@@ -10,7 +10,7 @@ public abstract class Titulaire extends Professeur {
         this.couleur = couleur;
     }
 
-    public  Titulaire(String couleur){
+    public Titulaire(String couleur){
         super();
         this.couleur = couleur;
     }
